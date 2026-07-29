@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>С Днём рождения, бабушка и Валя! 💐</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="particles"></div>
+
+<!-- Первый экран -->
+
+<section class="screen active" id="screen1">
+
+<div class="card">
+
+<h1>💐</h1>
+
+<h2>Для любимых</h2>
+
+<h1>Бабушки и Вали</h1>
+
+<p>
+Сегодня особенный день.<br>
+Эта открытка создана специально для вас ❤️
+</p>
+
+<button onclick="nextScreen()">
+Открыть поздравление
+</button>
+
+</div>
+
+</section>
+
+<!-- Второй экран -->
+
+<section class="screen" id="screen2">
+
+<div class="card">
+
+<h2>С Днём рождения! 🎉</h2>
+
+<p>
+
+Пусть каждый день приносит радость,
+тепло и улыбки.
+
+Пусть здоровье будет крепким,
+дом наполнен счастьем,
+а рядом всегда будут любящие люди.
+
+Спасибо вам
+за доброту,
+заботу,
+мудрость
+и огромное сердце.
+
+Вы делаете этот мир светлее. ❤️
+
+</p>
+
+<button onclick="nextScreen()">
+Дальше →
+</button>
+
+</div>
+
+</section>
+
+<!-- Фото -->
+
+<section class="screen" id="screen3">
+
+<div class="card">
+
+<h2>Наши воспоминания 📸</h2>
+
+<div class="photos">
+
+<img src="photo1.jpg">
+
+<img src="photo2.jpg">
+
+<img src="photo3.jpg">
+
+<img src="photo4.jpg">
+
+</div>
+
+<p>
+
+Здесь могут быть самые любимые фотографии.
+
+Каждая из них —
+маленькое счастливое воспоминание,
+которое хочется хранить всегда.
+
+</p>
+
+<button onclick="nextScreen()">
+Ещё ❤️
+</button>
+
+</div>
+
+</section>
+
+<!-- Финал -->
+
+<section class="screen" id="screen4">
+
+<div class="card">
+
+<h1>💖</h1>
+
+<h2>
+
+Пусть впереди будет
+ещё очень много
+счастливых дней!
+
+</h2>
+
+<p>
+
+Желаю здоровья,
+мира,
+любви,
+тепла,
+семейного счастья
+и исполнения всех желаний.
+
+Пусть каждый новый день
+начинается с улыбки.
+
+Очень люблю вас!
+
+</p>
+
+<div class="flowers">
+
+🌸 🌺 🌷 🌹 🌼
+
+</div>
+
+<button onclick="restart()">
+
+Посмотреть ещё раз
+
+</button>
+
+</div>
+
+</section>
+
+<audio id="music" loop>
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
